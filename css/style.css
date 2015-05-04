@@ -69,15 +69,16 @@ nav ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 1% 2%;
-    overflow: auto;
-    background-color: #424235;
+    /*overflow: auto; */
+    background-color: #484852;
     border-radius: 5px;
     border: white 2px solid;
 }
 
 nav li {
    
-    background-color: #484852;
+    background-color: #727282;
+    border-color: : white;
     opacity: 1;
     display: inline-block;
     margin: 5% 2%;
@@ -98,7 +99,7 @@ nav a:link, a:visited {
     font-size: 1.25em;
     display: inline-block;
     font-weight: bold;
-    color: #bdc3c7;
+    color: white;
     text-align: center;
     padding: 5px;
     text-decoration: none; 
@@ -107,8 +108,8 @@ nav a:hover, a:active {
     color:#ecf0f1;
 }
 .sousmenu {
-display: none;
-position: absolute;
+  display: none;
+  position: absolute;
 }
 .navbar li:hover > ul {
   display: block;
@@ -117,12 +118,12 @@ position: absolute;
 
 }
 .navbar ul li ul li {
-display: block;
-background-color: #484852;
-width: 100%;
-text-align: center;
-border-radius: 5px;
-border: solid 2px #bdc3c7;
+  display: block;
+  background-color: #727282;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  border: solid 2px #bdc3c7;
 }
 .navbar ul li ul li:hover {
   background-color: #2980b9;
@@ -141,17 +142,17 @@ h2 {
   position: absolute;
   font-family: la_unicaregular, sans-serif;
   font-size:300%;
-  color: #472D20;
-  margin-top: -35%;
+  color: #353232;
+  margin-top: -37%;
   margin-left: 10%;
 }
 h3 {
   position: absolute;
   font-family: la_unicaregular, sans-serif;
   font-size:200%;
-  color: #472D20;
-  margin-top: -31%; 
-  margin-left: 50%;
+  color: #353232;
+  margin-top: -32%; 
+  margin-left: 10%;
 }
 .img_resto {
     float:left;
