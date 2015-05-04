@@ -56,6 +56,7 @@
 
 body{
   background-color: #A4A4A4;
+  margin-top: 0;
 }
 
 
@@ -68,7 +69,7 @@ nav ul {
     display: flex;
     list-style-type: none;
     margin: 0 auto;
-    padding: 1% 2%;
+    padding: 0.9% 2%;
     /*overflow: auto; */
     background-color: #484852;
     border-radius: 5px;
@@ -79,10 +80,8 @@ nav li {
    
     background-color: #727282;
     border-color: : white;
-    opacity: 1;
     display: inline-block;
-    margin: 5% 2%;
-    padding: 1%;
+    margin: 0 2%;
     width: 17%;
     text-align: center;
     justify-content: center;
@@ -95,8 +94,8 @@ nav li:hover {
 }
 
 nav a:link, a:visited {
-    font-family: la_unicaregular, sans-serif;
-    font-size: 1.25em;
+    font-family: rochesterregular, Verdana, sans-serif;
+    font-size: 1.40em;
     display: inline-block;
     font-weight: bold;
     color: white;
@@ -120,7 +119,7 @@ nav a:hover, a:active {
 .navbar ul li ul li {
   display: block;
   background-color: #727282;
-  width: 100%;
+  width: 9em;
   text-align: center;
   border-radius: 5px;
   border: solid 2px #bdc3c7;
@@ -138,21 +137,41 @@ nav a:hover, a:active {
   border-radius: 5px;
 }
 
-h2 {
+h1 {
   position: absolute;
-  font-family: la_unicaregular, sans-serif;
-  font-size:300%;
+  font-family: rochesterregular, Verdana, sans-serif;
+  font-size:350%;
   color: #353232;
   margin-top: -37%;
   margin-left: 10%;
 }
+h2 {
+  font-family: rochesterregular, sans-serif;
+  background-color: #484852;
+  border-radius: 5px;
+  margin-left: 8%;
+  margin-right: 9%;
+  text-align: center;
+  color: white;
+  border: white 2px solid;
+}
 h3 {
   position: absolute;
-  font-family: la_unicaregular, sans-serif;
-  font-size:200%;
+  font-family: rochesterregular, Verdana, sans-serif;
+  font-size:230%;
   color: #353232;
-  margin-top: -32%; 
+  margin-top: -30%; 
   margin-left: 10%;
+}
+p {
+  font-family: rochesterregular, Verdana, sans-serif;
+  font-size: 25px;
+  margin-left: 8%;
+  margin-right: 9%;
+  text-align: justify;
+  background-color: #bdc3c7;
+  padding: 1% 2%;
+  border-radius: 10px;
 }
 .img_resto {
     float:left;
@@ -229,16 +248,6 @@ h3 {
   border: white 5px solid;
   box-shadow: 8px 8px 14px #555;
 }
-p {
-  font-family: rochesterregular, Verdana, sans-serif;
-  font-size: 24px;
-  margin-left: 8%;
-  margin-right: 9%;
-  text-align: justify;
-  background-color: #bdc3c7;
-  padding: 1% 2%;
-  border-radius: 10px;
-}
 .resto p {
   text-align: justify;
   margin-top: 7%;
@@ -252,16 +261,6 @@ p {
 }
 .ferme a:hover {
   color: green;
-}
-h1 {
-  font-family: rochesterregular, sans-serif;
-  background-color: #484852;
-  border-radius: 5px;
-  margin-left: 8%;
-  margin-right: 9%;
-  text-align: center;
-  color: white;
-  border: white 2px solid;
 }
 footer {
   font-family:kingthings_exeterregular, sans-serif;
